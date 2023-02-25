@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"by.vladsimonenko.secondlab.variantA"},{"l":"by.vladsimonenko.secondlab.variantC._main"},{"l":"by.vladsimonenko.secondlab.variantC.action"}];updateSearchResults();

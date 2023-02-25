@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"by.vladsimonenko.secondlab.variantC.action","l":"Action"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"by.vladsimonenko.secondlab.variantA","l":"Main"},{"p":"by.vladsimonenko.secondlab.variantC._main","l":"Main"}];updateSearchResults();
