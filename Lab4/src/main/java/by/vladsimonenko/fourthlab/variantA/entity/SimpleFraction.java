@@ -2,6 +2,9 @@ package by.vladsimonenko.fourthlab.variantA.entity;
 
 import java.util.Objects;
 
+/**
+ * Class that represent the simple fraction entity
+ */
 public class SimpleFraction {
 
 

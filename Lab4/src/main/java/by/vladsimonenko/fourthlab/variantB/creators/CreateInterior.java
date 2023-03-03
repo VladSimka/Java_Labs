@@ -2,7 +2,16 @@ package by.vladsimonenko.fourthlab.variantB.creators;
 
 import by.vladsimonenko.fourthlab.variantB.entity.*;
 
+/**
+ * Class to generate a Toy
+ */
 public class CreateInterior {
+    /**
+     * Method that generate Toy
+     *
+     * @param mode choice type of Toy
+     * @return some type of Toy
+     */
     public static Toy generateToy(int mode) {
         return switch (mode) {
             case 0 -> new Ball();

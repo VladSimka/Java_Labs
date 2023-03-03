@@ -4,7 +4,15 @@ import by.vladsimonenko.fourthlab.variantB.entity.CarBrand;
 
 import java.util.Random;
 
+/**
+ * Class - action to create Car Brand
+ */
 public class CreateCarBrand {
+    /**
+     * Method that generate random Car Brand
+     *
+     * @return Car Brand
+     */
     public CarBrand createBrand() {
         int mode = new Random().nextInt(5);
 

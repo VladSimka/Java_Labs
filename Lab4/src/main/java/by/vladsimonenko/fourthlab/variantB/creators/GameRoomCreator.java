@@ -4,8 +4,17 @@ import by.vladsimonenko.fourthlab.variantB.entity.Toy;
 
 import java.util.Random;
 
+/**
+ * Class - creator a GameRoom
+ */
 public class GameRoomCreator {
 
+    /**
+     * Method to create a game room
+     *
+     * @param NUMBER_TOYS number of Toys in GameRoom
+     * @return room
+     */
     public Toy[] generateRoom(final int NUMBER_TOYS) {
         Toy[] room = new Toy[NUMBER_TOYS];
 

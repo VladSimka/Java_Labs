@@ -1,5 +1,8 @@
 package by.vladsimonenko.fourthlab.variantB.entity;
 
+/**
+ * Abstract class to represent a Toy
+ */
 public abstract class Toy {
     private String title;
     private String size;
@@ -34,11 +37,11 @@ public abstract class Toy {
     }
 
     public String toString() {
-        return "Игрушка: " +
+        return "Игрушка:\t" +
                 "Название = '" + title + '\'' +
                 ", Размер = '" + size + '\'' +
                 ", Цена = " + price +
                 ", для детей от " + age +
-                " лет";
+                " лет.";
     }
 }

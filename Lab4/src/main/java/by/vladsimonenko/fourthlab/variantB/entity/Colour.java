@@ -1,5 +1,8 @@
 package by.vladsimonenko.fourthlab.variantB.entity;
 
+/**
+ * Enum of colours
+ */
 public enum Colour {
     GREEN("Зеленый"), BLUE("Голубой"), WHITE("Белый"), RED("Красный"), YELLOW("Жёлтый");
 

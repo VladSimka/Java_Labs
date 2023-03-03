@@ -1,5 +1,8 @@
 package by.vladsimonenko.fourthlab.variantA.entity;
 
+/**
+ * Class that represent the number for simple fraction
+ */
 public class Number {
     int number;
 
