@@ -1,16 +1,13 @@
 package by.vladsimonenko.fourthlab.variantA.action;
 
 import by.vladsimonenko.fourthlab.variantA.entity.SimpleFraction;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.*;
 
 public class SimpleFractionActionTest {
 
-    static Logger logger= LogManager.getLogger();
+
     @Test
     public void testAdd() {
         SimpleFractionAction action = new SimpleFractionAction();

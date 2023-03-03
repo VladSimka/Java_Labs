@@ -1,2 +1,9 @@
-2023-03-01 11:09:46 [main] DEBUG vladsimonenko.fourthlab.variantA.action.SimpleFractionAction - Argument p is 1/3, argument q is 1/2
-2023-03-01 11:09:46 [main] INFO  vladsimonenko.fourthlab.variantA.action.SimpleFractionAction - Result is 5/6
+2023-03-01 11:48:10 [main] DEBUG Log_File  - Argument p is 1/3, argument q is 1/2
+2023-03-01 11:48:10 [main] INFO  Log_File  - Result of addition is 5/6
+2023-03-01 11:48:10 [main] DEBUG Log_File  - Argument p is 10/11, argument q is 100/22
+2023-03-01 11:48:10 [main] INFO  Log_File  - Result of division is 1/5
+2023-03-01 11:48:10 [main] DEBUG Log_File  - Argument p is 5/4, argument q is 4/6
+2023-03-01 11:48:10 [main] INFO  Log_File  - Result of multiplication is 5/6
+2023-03-01 11:48:10 [main] DEBUG Log_File  - Argument p is 5/4, argument q is 3/4
+2023-03-01 11:48:10 [main] INFO  Log_File  - Result of subtracting is 1/2
+2023-03-01 14:21:34 [main] INFO  Log_File  - ge

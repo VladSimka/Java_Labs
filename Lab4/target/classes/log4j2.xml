@@ -3,10 +3,8 @@
     <Properties>
         <property name="LOG_DIR">logs</property>
         <property name="ARCHIVE_LOG_DIR">${LOG_DIR}/archive</property>
-        <property name="pattern_file">%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{5} - %msg%n</property>
-        <property name="pattern_console">
-            %d{HH:mm:ss} %-5level %logger{1} - %msg%n
-        </property>
+        <property name="pattern_file">%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{5}  - %msg%n</property>
+        <property name="pattern_console">%d{HH:mm:ss} %-5level %logger{1} - %msg%n</property>
     </Properties>
 
     <ThresholdFilter level="trace"/>
@@ -16,7 +14,7 @@
             <PatternLayout pattern="${pattern_console}"/>
         </Console>
 
-        <File name="File1" fileName="${LOG_DIR}/text.log" bufferIO="true">
+        <File name="File1" fileName="${LOG_DIR}/text.log" bufferedIO="true">
             <PatternLayout pattern="${pattern_file}"/>
         </File>
     </Appenders>

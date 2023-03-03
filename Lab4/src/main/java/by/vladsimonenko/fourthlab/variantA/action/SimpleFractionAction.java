@@ -7,7 +7,7 @@ import org.apache.logging.log4j.Logger;
 
 
 public class SimpleFractionAction {
-    static Logger logger = LogManager.getLogger();
+    static Logger logger = LogManager.getLogger("Log_File");
 
     public SimpleFraction add(SimpleFraction p, SimpleFraction q) {
         logger.log(Level.DEBUG, "Argument p is " + p + ", argument q is " + q);
@@ -15,32 +15,38 @@ public class SimpleFractionAction {
         int denominator = p.getDenominator() * q.getDenominator();
         SimpleFraction result = new SimpleFraction(numerator, denominator);
         reduce(result);
-        logger.log(Level.INFO, "Result is " + result);
+        logger.log(Level.INFO, "Result of addition is " + result);
         return result;
     }
 
     public SimpleFraction subtract(SimpleFraction p, SimpleFraction q) {
+        logger.log(Level.DEBUG, "Argument p is " + p + ", argument q is " + q);
         int numerator = p.getNumerator() * q.getDenominator() - p.getDenominator() * q.getNumerator();
         int denominator = p.getDenominator() * q.getDenominator();
         SimpleFraction result = new SimpleFraction(numerator, denominator);
         reduce(result);
+        logger.log(Level.INFO, "Result of subtracting is " + result);
         return result;
     }
 
 
     public SimpleFraction multiply(SimpleFraction p, SimpleFraction q) {
+        logger.log(Level.DEBUG, "Argument p is " + p + ", argument q is " + q);
         int numerator = p.getNumerator() * q.getNumerator();
         int denominator = p.getDenominator() * q.getDenominator();
         SimpleFraction result = new SimpleFraction(numerator, denominator);
         reduce(result);
+        logger.log(Level.INFO, "Result of multiplication is " + result);
         return result;
     }
 
     public SimpleFraction divide(SimpleFraction p, SimpleFraction q) {
+        logger.log(Level.DEBUG, "Argument p is " + p + ", argument q is " + q);
         int numerator = p.getNumerator() * q.getDenominator();
         int denominator = p.getDenominator() * q.getNumerator();
         SimpleFraction result = new SimpleFraction(numerator, denominator);
         reduce(result);
+        logger.log(Level.INFO, "Result of division is " + result);
         return result;
     }
 

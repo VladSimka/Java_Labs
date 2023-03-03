@@ -1,8 +1,24 @@
 package by.vladsimonenko.fourthlab.variantB.entity;
 
-public class Car extends Toy{
-    public Car(String size) {
+import by.vladsimonenko.fourthlab.variantB.creators.CreateCarBrand;
 
-        super("Машинка",size,11.99,3);
+import java.util.Random;
+
+public class Car extends Toy{
+    CarBrand brand;
+    public Car(String size) {
+        super("Машинка",size,11.99+new Random().nextInt(4),3+new Random().nextInt(3));
+        brand = new CreateCarBrand().createBrand();
+    }
+
+    @Override
+    public String toString() {
+        return "Игрушка:" +
+                "Название = '" + this.getTitle() + '\'' +
+                ", Марка = '" + brand.getBrand() + '\'' +
+                ", Размер = '" + this.getSize() + '\'' +
+                ", Цена = " + this.getPrice() +
+                ", для детей от " + this.getAge() +
+                " лет.";
     }
 }
