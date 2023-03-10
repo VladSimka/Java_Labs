@@ -5,6 +5,9 @@ import by.vladsimonenko.fourthlab.variantB.service.GameRoom;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.io.FileWriter;
+import java.io.IOException;
+
 /**
  * Class to interact with GameRoom
  */
@@ -70,4 +73,22 @@ public class GameRoomAction {
         }
     }
 
+    /**
+     * Method to write information about GameRoom to file
+     * @param room current room
+     */
+    public void writeToFile(GameRoom room) {
+        try (FileWriter writer = new FileWriter("gameRoom.txt", false)) {
+            writer.write(String.valueOf(room));
+            writer.flush();
+        } catch (IOException e) {
+            logger.error("Ошибка при записи файла" + e.getMessage());
+        }
+        finally {
+            logger.debug("Была произведена попытка записи информации про игровую комнату в файл");
+        }
+
+    }
 }
+
+

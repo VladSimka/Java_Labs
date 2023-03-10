@@ -22,7 +22,8 @@ public class MenuController {
         System.out.println(2 + ") Сортировка по возрасту ребенка");
         System.out.println(3 + ") Поиск игрушек в заданном диапазоне цены");
         System.out.println(4 + ") Вывод всех игрушек комнаты");
-        System.out.println(5 + ") Выход");
+        System.out.println(5 + ") Записать информацию в файл");
+        System.out.println(6 + ") Выход");
 
     }
 
@@ -60,6 +61,9 @@ public class MenuController {
                     logger.info(room);
                     break;
                 case 5:
+                    action.writeToFile(room);
+                    break;
+                case 6:
                     break OUT;
                 default:
                     logger.error("Неверный ввод данных(введенное число меньше 1  или больше 5 ");

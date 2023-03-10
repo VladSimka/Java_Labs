@@ -12,12 +12,17 @@ public class SimpleFraction {
     private Number denominator;
 
     public SimpleFraction(int numerator, int denominator) {
+        if (denominator == 0) {
+            throw new IllegalArgumentException();
+        }
         this.numerator = new Number(numerator);
         this.denominator = new Number(denominator);
     }
 
     public SimpleFraction() {
         super();
+        this.numerator = new Number(0);
+        this.denominator = new Number(1);
     }
 
     public int getNumerator() {

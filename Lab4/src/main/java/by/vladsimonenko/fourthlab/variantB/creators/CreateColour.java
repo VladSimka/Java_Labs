@@ -1,6 +1,7 @@
 package by.vladsimonenko.fourthlab.variantB.creators;
 
 import by.vladsimonenko.fourthlab.variantB.entity.Colour;
+import by.vladsimonenko.fourthlab.variantB.exceptions.CreatorException;
 
 import java.util.Random;
 
@@ -14,7 +15,7 @@ public class CreateColour {
      *
      * @return Colour
      */
-    public Colour createColour() {
+    public Colour createColour() throws CreatorException {
         int mode = new Random().nextInt(5);
 
         return switch (mode) {
@@ -23,7 +24,7 @@ public class CreateColour {
             case 2 -> Colour.WHITE;
             case 3 -> Colour.GREEN;
             case 4 -> Colour.YELLOW;
-            default -> throw new IllegalArgumentException("illegal mode");
+            default -> throw new CreatorException("illegal mode");
         };
 
     }

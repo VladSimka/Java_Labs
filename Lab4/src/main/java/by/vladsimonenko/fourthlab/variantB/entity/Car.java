@@ -1,6 +1,7 @@
 package by.vladsimonenko.fourthlab.variantB.entity;
 
 import by.vladsimonenko.fourthlab.variantB.creators.CreateCarBrand;
+import by.vladsimonenko.fourthlab.variantB.exceptions.CreatorException;
 
 import java.util.Random;
 
@@ -10,7 +11,7 @@ import java.util.Random;
 public class Car extends Toy {
     CarBrand brand;
 
-    public Car(String size) {
+    public Car(String size) throws CreatorException {
         super("Машинка", size, 11.99 + new Random().nextInt(4), 3 + new Random().nextInt(3));
         brand = new CreateCarBrand().createBrand();
     }

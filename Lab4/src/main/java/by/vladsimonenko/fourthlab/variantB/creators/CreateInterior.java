@@ -1,6 +1,7 @@
 package by.vladsimonenko.fourthlab.variantB.creators;
 
 import by.vladsimonenko.fourthlab.variantB.entity.*;
+import by.vladsimonenko.fourthlab.variantB.exceptions.CreatorException;
 
 /**
  * Class to generate a Toy
@@ -12,7 +13,7 @@ public class CreateInterior {
      * @param mode choice type of Toy
      * @return some type of Toy
      */
-    public static Toy generateToy(int mode) {
+    public static Toy generateToy(int mode) throws CreatorException {
         return switch (mode) {
             case 0 -> new Ball();
             case 1 -> new Car("Маленький");
@@ -20,7 +21,7 @@ public class CreateInterior {
             case 3 -> new Car("Большой");
             case 4 -> new Cube();
             case 5 -> new Doll();
-            default -> throw new IllegalArgumentException("illegal mode");
+            default -> throw new CreatorException("Невозможное значение");
         };
     }
 

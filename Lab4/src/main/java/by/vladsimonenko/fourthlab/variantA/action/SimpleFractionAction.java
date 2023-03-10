@@ -1,9 +1,14 @@
 package by.vladsimonenko.fourthlab.variantA.action;
 
+import by.vladsimonenko.fifthlab.exceptions.InvalidNumberException;
 import by.vladsimonenko.fourthlab.variantA.entity.SimpleFraction;
+import by.vladsimonenko.fourthlab.variantA.exceptions.SimpleFractionException;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.io.*;
+
 
 /**
  * Class for interacting with a simple fraction
@@ -73,6 +78,9 @@ public class SimpleFractionAction {
      * @return result of division
      */
     public SimpleFraction divide(SimpleFraction p, SimpleFraction q) {
+        if (q.getDenominator() == 0) {
+            throw new IllegalArgumentException("Деление на ноль");
+        }
         logger.log(Level.DEBUG, "Argument p is " + p + ", argument q is " + q);
         int numerator = p.getNumerator() * q.getDenominator();
         int denominator = p.getDenominator() * q.getNumerator();
@@ -102,5 +110,63 @@ public class SimpleFractionAction {
      */
     private int greatestCommonDivisor(int a, int b) {
         return b == 0 ? a : greatestCommonDivisor(b, a % b);
+    }
+
+
+    public static int getLineCountByReader(String fileName) {
+        try (var lnr = new LineNumberReader(new BufferedReader(new FileReader(fileName)))) {
+            while (lnr.readLine() != null) ;
+            return lnr.getLineNumber();
+        } catch (IOException e) {
+            logger.error("Ошибка прочтения файла: " + e.getMessage());
+        }
+        return 0;
+    }
+
+    public static void setSimpleFraction(SimpleFraction[] fractions, String filename) throws SimpleFractionException {
+
+        try {
+            BufferedReader reader = new BufferedReader(new FileReader(filename));
+
+            int[] numerators = new int[fractions.length];
+            int[] denominators = new int[fractions.length];
+
+            String line;
+            int i = 0;
+            while ((line = reader.readLine()) != null) {
+                String[] parts = line.split("/");
+                if (parts.length != 2) {
+                    throw new InvalidNumberException("Неверная запись дроби в файле: " + line);
+                }
+
+                int numerator = Integer.parseInt(parts[0]);
+                int denominator = Integer.parseInt(parts[1]);
+                if (denominator == 0) {
+                    throw new IllegalArgumentException("Знаменатель не может быть 0!");
+                }
+
+                numerators[i] = numerator;
+                denominators[i] = denominator;
+                i++;
+
+            }
+
+            for (int j = 0; j < fractions.length; j++) {
+                fractions[j].setDenominator(denominators[j]);
+                fractions[j].setNumerator(numerators[j]);
+            }
+
+        } catch (IOException | InvalidNumberException e) {
+            logger.error("Ошибка прочтения файла: " + e.getMessage());
+            throw new SimpleFractionException("Не удалось прочитать всю информацию в файле");
+        } catch (IllegalArgumentException e) {
+            logger.error(e.getMessage());
+            throw new SimpleFractionException("Ноль в знаменателе");
+        }
+        catch (OutOfMemoryError e){
+            logger.error(e.getMessage());
+        }
+
+
     }
 }

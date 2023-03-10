@@ -2,6 +2,7 @@ package by.vladsimonenko.fourthlab.variantB.service;
 
 import by.vladsimonenko.fourthlab.variantB.creators.GameRoomCreator;
 import by.vladsimonenko.fourthlab.variantB.entity.Toy;
+import by.vladsimonenko.fourthlab.variantB.exceptions.CreatorException;
 
 
 /**
@@ -13,10 +14,12 @@ public class GameRoom {
     double price;
 
 
-    public GameRoom(double amountOfMoney) {
+    public GameRoom(double amountOfMoney) throws CreatorException {
         GameRoomCreator creator = new GameRoomCreator();
         int amountOfToys = (int) (amountOfMoney / 16) + 1;
-        toys = creator.generateRoom(amountOfToys);
+        toys = new Toy[amountOfToys];
+
+        creator.generateRoom(amountOfToys,toys);
         for (int i = 0; i < toys.length; i++) {
             price += toys[i].getPrice();
         }

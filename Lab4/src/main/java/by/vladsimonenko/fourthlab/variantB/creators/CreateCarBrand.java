@@ -1,6 +1,7 @@
 package by.vladsimonenko.fourthlab.variantB.creators;
 
 import by.vladsimonenko.fourthlab.variantB.entity.CarBrand;
+import by.vladsimonenko.fourthlab.variantB.exceptions.CreatorException;
 
 import java.util.Random;
 
@@ -13,7 +14,7 @@ public class CreateCarBrand {
      *
      * @return Car Brand
      */
-    public CarBrand createBrand() {
+    public CarBrand createBrand() throws CreatorException {
         int mode = new Random().nextInt(5);
 
         return switch (mode) {
@@ -22,7 +23,7 @@ public class CreateCarBrand {
             case 2 -> CarBrand.BMW;
             case 3 -> CarBrand.LADA;
             case 4 -> CarBrand.OPEL;
-            default -> throw new IllegalArgumentException("illegal mode");
+            default -> throw new CreatorException("illegal mode");
         };
 
     }
