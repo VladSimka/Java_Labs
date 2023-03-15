@@ -21,6 +21,7 @@ public class ReadAction {
 
     /**
      * Method that find sum of number of different locals
+     *
      * @param filename path to file
      */
     public void sumFromFile(String filename) {

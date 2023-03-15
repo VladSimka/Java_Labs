@@ -1,17 +1,25 @@
-package by.vladsimonenko.fourthlab.variantB.service;
+package by.vladsimonenko.fourthlab.variantB.entity;
 
 import by.vladsimonenko.fourthlab.variantB.creators.GameRoomCreator;
-import by.vladsimonenko.fourthlab.variantB.entity.Toy;
 import by.vladsimonenko.fourthlab.variantB.exceptions.CreatorException;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.io.Serial;
+import java.io.Serializable;
 
 
 /**
  * Class to represent a GameRoom
  */
 
-public class GameRoom {
+public class GameRoom implements Serializable {
+    static Logger logger = LogManager.getLogger();
     Toy[] toys;
-    double price;
+    private transient double price;
+
+    @Serial
+    private static final long serialVersionUID = 1L;
 
 
     public GameRoom(double amountOfMoney) throws CreatorException {
@@ -19,9 +27,14 @@ public class GameRoom {
         int amountOfToys = (int) (amountOfMoney / 16) + 1;
         toys = new Toy[amountOfToys];
 
-        creator.generateRoom(amountOfToys,toys);
-        for (int i = 0; i < toys.length; i++) {
-            price += toys[i].getPrice();
+        creator.generateRoom(amountOfToys, toys);
+        try {
+            for (int i = 0; i < toys.length; i++) {
+                price += toys[i].getPrice();
+            }
+        } catch (NullPointerException e) {
+            logger.error("Игровая комната не создана");
+            System.exit(0);
         }
         price = Math.ceil((price) * 100) / 100;
     }
@@ -32,6 +45,13 @@ public class GameRoom {
 
     public void setToys(Toy[] toys) {
         this.toys = toys;
+    }
+
+    public void setPrice() {
+        price = 0;
+        for (int i = 0; i < toys.length; i++) {
+            price += toys[i].getPrice();
+        }
     }
 
     @Override

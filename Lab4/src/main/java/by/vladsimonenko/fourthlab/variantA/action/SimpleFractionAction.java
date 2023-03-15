@@ -123,6 +123,11 @@ public class SimpleFractionAction {
         return 0;
     }
 
+    /**
+     * Method that set fraction from file
+     * @param fractions array of fractions
+     * @param filename name of file
+     */
     public static void setSimpleFraction(SimpleFraction[] fractions, String filename) throws SimpleFractionException {
 
         try {
@@ -161,7 +166,7 @@ public class SimpleFractionAction {
             throw new SimpleFractionException("Не удалось прочитать всю информацию в файле");
         } catch (IllegalArgumentException e) {
             logger.error(e.getMessage());
-            throw new SimpleFractionException("Ноль в знаменателе");
+            throw new SimpleFractionException("Неверная информация");
         }
         catch (OutOfMemoryError e){
             logger.error(e.getMessage());

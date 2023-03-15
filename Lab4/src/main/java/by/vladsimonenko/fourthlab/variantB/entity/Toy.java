@@ -1,9 +1,11 @@
 package by.vladsimonenko.fourthlab.variantB.entity;
 
+import java.io.Serializable;
+
 /**
  * Abstract class to represent a Toy
  */
-public abstract class Toy {
+public abstract class Toy implements Serializable {
     private String title;
     private String size;
     private double price;

@@ -5,12 +5,13 @@ import by.vladsimonenko.fourthlab.variantB.exceptions.CreatorException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.io.Serializable;
 import java.util.Random;
 
 /**
  * Class - creator a GameRoom
  */
-public class GameRoomCreator {
+public class GameRoomCreator implements Serializable {
 
     static Logger logger = LogManager.getLogger();
 
@@ -38,8 +39,4 @@ public class GameRoomCreator {
     }
 
 
-    /*public Toy[] createRoomFromFile(String filename){
-
-
-    }*/
 }

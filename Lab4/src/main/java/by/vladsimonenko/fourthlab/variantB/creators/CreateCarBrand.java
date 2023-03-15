@@ -23,7 +23,7 @@ public class CreateCarBrand {
             case 2 -> CarBrand.BMW;
             case 3 -> CarBrand.LADA;
             case 4 -> CarBrand.OPEL;
-            default -> throw new CreatorException("illegal mode");
+            default -> throw new CreatorException("Невозможность создать игрушку машина");
         };
 
     }

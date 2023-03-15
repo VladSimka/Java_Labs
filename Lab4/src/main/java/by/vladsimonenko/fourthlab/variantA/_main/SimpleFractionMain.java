@@ -6,6 +6,8 @@ import by.vladsimonenko.fourthlab.variantA.exceptions.SimpleFractionException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.io.IOException;
+
 /**
  * Class with main method for variantA
  */
@@ -17,7 +19,6 @@ public class SimpleFractionMain {
         SimpleFractionAction action = new SimpleFractionAction();
 
         int size = SimpleFractionAction.getLineCountByReader("simplefraction.txt");
-
 
         SimpleFraction[] fractions = new SimpleFraction[size];
         for (int i = 0; i < fractions.length; i++) {
@@ -31,10 +32,13 @@ public class SimpleFractionMain {
             action.subtract(fractions[0], fractions[3]);
             action.divide(fractions[0], fractions[4]);
         } catch (SimpleFractionException e) {
-            logger.error("Не удалось выполнить математические операции: " + e.getMessage());
+            logger.error("Не удалось выполнить все операции: " + e.getMessage());
         }
         catch (IllegalArgumentException e){
             logger.error(e.getMessage());
+        }
+        catch (ArrayIndexOutOfBoundsException e){
+            logger.error("Не удалось создать дроби из за невозможности прочитать файл");
         }
 
 

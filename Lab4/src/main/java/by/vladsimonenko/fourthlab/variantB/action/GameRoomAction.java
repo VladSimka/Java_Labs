@@ -1,7 +1,7 @@
 package by.vladsimonenko.fourthlab.variantB.action;
 
 import by.vladsimonenko.fourthlab.variantB.entity.Toy;
-import by.vladsimonenko.fourthlab.variantB.service.GameRoom;
+import by.vladsimonenko.fourthlab.variantB.entity.GameRoom;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

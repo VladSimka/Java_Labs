@@ -3,10 +3,12 @@ package by.vladsimonenko.fourthlab.variantB.creators;
 import by.vladsimonenko.fourthlab.variantB.entity.*;
 import by.vladsimonenko.fourthlab.variantB.exceptions.CreatorException;
 
+import java.io.Serializable;
+
 /**
  * Class to generate a Toy
  */
-public class CreateInterior {
+public class CreateInterior implements Serializable {
     /**
      * Method that generate Toy
      *
