@@ -3,13 +3,17 @@ package by.vladsimonenko.eighthlab.variantA.action;
 import by.vladsimonenko.eighthlab.variantA.service.FibonacciService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.util.InputMismatchException;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
+
+/**
+ * Class - action that works with Fibonacci numbers
+ */
+
 public class FibonacciAction {
     static final Logger logger = LogManager.getLogger();
+
 
     public void fibonacciAction(FibonacciService service) {
 
@@ -25,11 +29,9 @@ public class FibonacciAction {
 
                 if (service.isFibonacciNumber(number)) {
                     logger.info(number + " является числом Фибоначчи");
-                }
-                else if(number ==-1){
+                } else if (number == -1) {
                     break;
-                }
-                    else {
+                } else {
                     logger.info(number + " не является чилом Фибоначчи");
                 }
 

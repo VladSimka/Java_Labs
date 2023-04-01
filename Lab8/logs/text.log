@@ -6,3 +6,89 @@
 2023-03-29 12:19:20 [main] INFO  vladsimonenko.eighthlab.variantA.action.FibonacciAction - 5 является числом Фибоначчи
 2023-03-29 12:19:22 [main] INFO  vladsimonenko.eighthlab.variantA.action.FibonacciAction - 8 является числом Фибоначчи
 2023-03-29 12:19:30 [main] INFO  vladsimonenko.eighthlab.variantA.action.FibonacciAction - 54 не является чилом Фибоначчи
+2023-03-31 18:22:27 [main] INFO  vladsimonenko.eighthlab.variantA.action.FibonacciAction - 4 не является чилом Фибоначчи
+2023-03-31 18:22:30 [main] INFO  vladsimonenko.eighthlab.variantA.action.FibonacciAction - 6 не является чилом Фибоначчи
+2023-03-31 18:22:31 [main] INFO  vladsimonenko.eighthlab.variantA.action.FibonacciAction - 5 является числом Фибоначчи
+2023-03-31 18:22:32 [main] INFO  vladsimonenko.eighthlab.variantA.action.FibonacciAction - 9 не является чилом Фибоначчи
+2023-03-31 18:22:35 [main] INFO  vladsimonenko.eighthlab.variantA.action.FibonacciAction - 8 является числом Фибоначчи
+2023-03-31 18:22:36 [main] INFO  vladsimonenko.eighthlab.variantA.action.FibonacciAction - 13 является числом Фибоначчи
+2023-03-31 18:22:40 [main] INFO  vladsimonenko.eighthlab.variantA.action.FibonacciAction - 21 является числом Фибоначчи
+2023-03-31 18:22:43 [main] INFO  vladsimonenko.eighthlab.variantA.action.FibonacciAction - 34 является числом Фибоначчи
+2023-03-31 18:22:46 [main] INFO  vladsimonenko.eighthlab.variantA.action.FibonacciAction - 35 не является чилом Фибоначчи
+2023-03-31 18:58:34 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - Выберите продукт:
+2023-03-31 18:58:34 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 1)Молоко
+2023-03-31 18:58:34 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 2)Масло
+2023-03-31 18:58:34 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 3)Творог
+2023-03-31 18:59:01 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - Выберите продукт:
+2023-03-31 18:59:01 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 1)Молоко
+2023-03-31 18:59:01 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 2)Масло
+2023-03-31 18:59:01 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 3)Творог
+2023-03-31 18:59:05 [main] INFO  vladsimonenko.eighthlab.variantB.action.ProductAction - Товар: id= 5, имя= 'Молоко', штрих-код= '41421', производитель= 'Брест-Литовск', цена= 2.99, срок годности= '10.04.2023', количество= 23, жирность= 3.0%
+2023-03-31 18:59:30 [main] INFO  vladsimonenko.eighthlab.variantB.service.ProductImpls - Товар списан!
+2023-03-31 18:59:32 [main] INFO  vladsimonenko.eighthlab.variantB.action.ProductAction - Товар: id= 5, имя= 'Молоко', штрих-код= '41421', производитель= 'Брест-Литовск', цена= 2.99, срок годности= '10.04.2023', количество= 22, жирность= 3.0%
+2023-03-31 19:00:25 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - Выберите продукт:
+2023-03-31 19:00:25 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 1)Молоко
+2023-03-31 19:00:25 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 2)Масло
+2023-03-31 19:00:25 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 3)Творог
+2023-03-31 19:00:30 [main] INFO  vladsimonenko.eighthlab.variantB.action.ProductAction - Товар: id= 1, имя= 'Масло
+, штрих-код= '31124
+, производитель= 'Минская марка
+, цена= 3.99, срок годности= '07.04.2023
+, количество= 5, количество калорий= 884
+2023-03-31 19:01:52 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - Выберите продукт:
+2023-03-31 19:01:52 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 1)Молоко
+2023-03-31 19:01:52 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 2)Масло
+2023-03-31 19:01:52 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 3)Творог
+2023-03-31 19:01:56 [main] INFO  vladsimonenko.eighthlab.variantB.action.ProductAction - 
+Товар: id= 1, имя= 'Масло,
+штрих-код= '31124,
+производитель= 'Минская марка,
+цена= 3.99, срок годности= '07.04.2023,
+количество= 5, количество калорий= 884
+2023-03-31 19:03:09 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - Выберите продукт:
+2023-03-31 19:03:09 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 1)Молоко
+2023-03-31 19:03:09 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 2)Масло
+2023-03-31 19:03:09 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 3)Творог
+2023-03-31 19:03:16 [main] INFO  vladsimonenko.eighthlab.variantB.action.ProductAction - 
+Товар: id= 5, имя= Молоко,
+штрих-код= 41421,
+производитель= Брест-Литовск,
+цена= 2.99, срок годности= 10.04.2023,
+количество= 23, жирность= 3.0%
+2023-03-31 19:04:11 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - Выберите продукт:
+2023-03-31 19:04:11 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 1)Молоко
+2023-03-31 19:04:11 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 2)Масло
+2023-03-31 19:04:11 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 3)Творог
+2023-03-31 19:04:43 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - Выберите продукт:
+2023-03-31 19:04:43 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 1)Молоко
+2023-03-31 19:04:43 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 2)Масло
+2023-03-31 19:04:43 [main] INFO  vladsimonenko.eighthlab.variantB._main.ProductMain - 3)Творог
+2023-03-31 19:04:51 [main] INFO  vladsimonenko.eighthlab.variantB.service.ProductImpls - Товар оплачен
+2023-03-31 19:04:54 [main] INFO  vladsimonenko.eighthlab.variantB.service.ProductImpls - Товар списан!
+2023-03-31 19:05:11 [main] INFO  vladsimonenko.eighthlab.variantB.service.ProductImpls - Товар перемещен на склад
+2023-03-31 19:05:14 [main] INFO  vladsimonenko.eighthlab.variantB.service.ProductImpls - Товар уже находится на складе
+2023-03-31 19:05:19 [main] INFO  vladsimonenko.eighthlab.variantB.service.ProductImpls - Товар перемещен в магазин
+2023-03-31 19:05:21 [main] INFO  vladsimonenko.eighthlab.variantB.service.ProductImpls - Товар уже находится в магазине
+2023-03-31 19:22:41 [main] INFO  vladsimonenko.eighthlab.variantC.service.Printer - Уровень тонера: 1%.
+2023-03-31 19:23:24 [main] INFO  vladsimonenko.eighthlab.variantC.service.Printer - Принтер включен!
+2023-03-31 19:23:27 [main] INFO  vladsimonenko.eighthlab.variantC.service.Printer - Принтер включен!
+2023-03-31 19:23:28 [main] INFO  vladsimonenko.eighthlab.variantC.service.Printer - Принтер выключен!
+2023-03-31 19:25:01 [main] INFO  vladsimonenko.eighthlab.variantC.service.Printer - Принтер включен!
+2023-03-31 19:25:05 [main] INFO  vladsimonenko.eighthlab.variantC.service.Printer - Распечатан следующий текст:
+fds
+2023-03-31 19:25:11 [main] ERROR vladsimonenko.eighthlab.variantC.service.Printer - Недостаточно тонера
+2023-03-31 19:25:14 [main] INFO  vladsimonenko.eighthlab.variantC.service.Printer - Картридж заменен. Уровень тонера: 100%.
+2023-03-31 19:25:17 [main] INFO  vladsimonenko.eighthlab.variantC.service.Printer - Уровень тонера: 100%.
+2023-03-31 19:25:55 [main] ERROR vladsimonenko.eighthlab.variantC.service.Printer - Печать невозможна, принтер выключен!
+2023-03-31 19:26:00 [main] INFO  vladsimonenko.eighthlab.variantC.service.Printer - Принтер включен!
+2023-03-31 19:26:03 [main] INFO  vladsimonenko.eighthlab.variantC.service.Printer - Уровень тонера: 0%.
+2023-03-31 19:27:55 [main] INFO  vladsimonenko.eighthlab.variantC.service.Printer - Уровень тонера: 1%.
+2023-03-31 19:28:00 [main] ERROR vladsimonenko.eighthlab.variantC.service.Printer - Печать невозможна, принтер выключен!
+2023-03-31 19:28:04 [main] INFO  vladsimonenko.eighthlab.variantC.service.Printer - Уровень тонера: 1%.
+2023-03-31 19:28:08 [main] INFO  vladsimonenko.eighthlab.variantC.service.Printer - Принтер включен!
+2023-03-31 19:28:11 [main] INFO  vladsimonenko.eighthlab.variantC.service.Printer - Распечатан следующий текст:
+fdsfds
+2023-03-31 19:28:14 [main] ERROR vladsimonenko.eighthlab.variantC.service.Printer - Недостаточно тонера
+2023-03-31 19:28:17 [main] INFO  vladsimonenko.eighthlab.variantC.service.Printer - Уровень тонера: 0%.
+2023-03-31 19:28:19 [main] INFO  vladsimonenko.eighthlab.variantC.service.Printer - Картридж заменен. Уровень тонера: 100%.
+2023-03-31 19:28:23 [main] INFO  vladsimonenko.eighthlab.variantC.service.Printer - Принтер выключен!
