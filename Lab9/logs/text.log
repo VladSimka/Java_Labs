@@ -1,0 +1,28 @@
+2023-04-07 20:49:50 [main] ERROR vladsimonenko.ninthlab.variantA._main.StringLengthMain - java.nio.file.NoSuchFileException: data_varA.txt
+2023-04-07 20:51:26 [main] ERROR vladsimonenko.ninthlab.variantA._main.StringLengthMain - java.nio.file.NoSuchFileException: data_varA.txt
+2023-04-07 20:51:55 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data_varA.txt
+2023-04-07 20:51:55 [main] ERROR vladsimonenko.ninthlab.variantA._main.StringLengthMain - java.nio.file.NoSuchFileException: data_varA.txt
+2023-04-07 20:52:25 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data_varA.txt
+2023-04-07 20:52:25 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data_varA.txt
+2023-04-07 20:52:25 [main] ERROR vladsimonenko.ninthlab.variantA._main.StringLengthMain - java.nio.file.NoSuchFileException: data_varA.txt
+2023-04-07 20:52:43 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data_varA.txt
+2023-04-07 20:52:43 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data_varA.txt
+2023-04-07 20:52:43 [main] ERROR vladsimonenko.ninthlab.variantA._main.StringLengthMain - java.nio.file.NoSuchFileException: data_varA.txt
+2023-04-07 20:53:54 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data_varA.txt
+2023-04-07 20:53:54 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data_varA.txt
+2023-04-07 20:53:54 [main] ERROR vladsimonenko.ninthlab.variantA._main.StringLengthMain - java.io.FileNotFoundException: data_varA.txt (Не удается найти указанный файл)
+2023-04-07 20:55:25 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data/data_varA.txt
+2023-04-07 20:55:25 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data\data_varA.txt
+2023-04-07 20:56:18 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data/data_varA.txt
+2023-04-07 20:56:18 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data\data_varA.txt
+2023-04-07 20:57:37 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data/data_varA.txt
+2023-04-07 20:57:37 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data\data_varA.txt
+2023-04-07 20:58:26 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data/data_varA.txt
+2023-04-07 20:58:26 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data\data_varA.txt
+2023-04-07 20:58:47 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data/data_varA.txt
+2023-04-07 20:58:47 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data\data_varA.txt
+2023-04-07 21:00:12 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data/data_varA.txt
+2023-04-07 21:00:12 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data\data_varA.txt
+2023-04-07 21:02:00 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data/data_varA.txt
+2023-04-07 21:02:00 [main] INFO  vladsimonenko.ninthlab.variantA.reader.StringReader - data\data_varA.txt
+2023-04-07 21:26:22 [main] ERROR vladsimonenko.ninthlab.variantB._main.PalindromeMain - java.io.FileNotFoundException: data\data_varB (Не удается найти указанный файл)
