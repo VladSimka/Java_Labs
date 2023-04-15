@@ -34,5 +34,6 @@ public class StringLengthMain {
             LOGGER.error(e.getMessage());
         }
 
+
     }
 }

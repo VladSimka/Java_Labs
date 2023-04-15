@@ -6,9 +6,9 @@ import java.util.List;
 public class StringConversion {
 
     public String inverseBurrowsWheelerTransform(String str, int position) {
-        List<StringBuffer> list = new ArrayList<>();
+        List<StringBuilder> list = new ArrayList<>();
         for (int i = 0; i < str.length(); i++) {
-            list.add(new StringBuffer());
+            list.add(new StringBuilder());
         }
 
 
@@ -17,15 +17,15 @@ public class StringConversion {
                 list.get(j).insert(0, str.charAt(j));
             }
             System.out.println("Добавление " + (i + 1));
-            for (StringBuffer stringBuffer : list) {
-                System.out.println(stringBuffer);
+            for (StringBuilder builder : list) {
+                System.out.println(builder);
             }
 
-            list.sort(StringBuffer::compareTo);
+            list.sort(StringBuilder::compareTo);
 
             System.out.println("После " + (i + 1) + " сортировки: ");
-            for (StringBuffer stringBuffer : list) {
-                System.out.println(stringBuffer);
+            for (StringBuilder builder : list) {
+                System.out.println(builder);
             }
             System.out.println();
         }

@@ -1,5 +1,4 @@
 package by.vladsimonenko.ninthlab.variantA.action;
-
 import java.util.*;
 
 /**
