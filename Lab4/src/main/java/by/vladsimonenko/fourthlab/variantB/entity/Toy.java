@@ -1,11 +1,16 @@
 package by.vladsimonenko.fourthlab.variantB.entity;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.Serializable;
 
 /**
  * Abstract class to represent a Toy
  */
-public abstract class Toy implements Serializable {
+public abstract class Toy extends Entity {
+    static Logger logger = LogManager.getLogger();
+    private int id;
     private String title;
     private String size;
     private double price;

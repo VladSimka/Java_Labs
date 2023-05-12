@@ -1,0 +1,100 @@
+2023-05-06 10:45:10 [pool-1-thread-9] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №9 прибыла на стоянку
+2023-05-06 10:45:10 [pool-1-thread-4] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №4 прибыла на стоянку
+2023-05-06 10:45:10 [pool-1-thread-3] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №3 прибыла на стоянку
+2023-05-06 10:45:10 [pool-1-thread-1] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №1 прибыла на стоянку
+2023-05-06 10:45:10 [pool-1-thread-8] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №8 прибыла на стоянку
+2023-05-06 10:45:10 [pool-1-thread-10] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №10 прибыла на стоянку
+2023-05-06 10:45:10 [pool-1-thread-6] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №6 прибыла на стоянку
+2023-05-06 10:45:10 [pool-1-thread-7] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №7 прибыла на стоянку
+2023-05-06 10:45:10 [pool-1-thread-5] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №5 прибыла на стоянку
+2023-05-06 10:45:10 [pool-1-thread-2] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №2 прибыла на стоянку
+2023-05-06 10:45:10 [pool-1-thread-4] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №4 заняла место на стоянке
+2023-05-06 10:45:10 [pool-1-thread-3] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №3 заняла место на стоянке
+2023-05-06 10:45:11 [pool-1-thread-5] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №5 заняла место на стоянке
+2023-05-06 10:45:11 [pool-1-thread-8] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №8 заняла место на стоянке
+2023-05-06 10:45:11 [pool-1-thread-1] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №1 заняла место на стоянке
+2023-05-06 10:45:13 [pool-1-thread-10] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №10 подождала 2 сек. и уехала на другую стоянку
+2023-05-06 10:45:13 [pool-1-thread-1] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №1 пробыла на стоянке 4 сек. и уехала
+2023-05-06 10:45:13 [pool-1-thread-5] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №5 пробыла на стоянке 3 сек. и уехала
+2023-05-06 10:45:13 [pool-1-thread-7] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №7 подождала 2 сек. и уехала на другую стоянку
+2023-05-06 10:45:13 [pool-1-thread-4] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №4 пробыла на стоянке 4 сек. и уехала
+2023-05-06 10:45:13 [pool-1-thread-6] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №6 подождала 2 сек. и уехала на другую стоянку
+2023-05-06 10:45:14 [pool-1-thread-2] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №2 подождала 3 сек. и уехала на другую стоянку
+2023-05-06 10:45:15 [pool-1-thread-9] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №9 подождала 4 сек. и уехала на другую стоянку
+2023-05-06 10:45:15 [pool-1-thread-8] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №8 пробыла на стоянке 3 сек. и уехала
+2023-05-06 10:45:15 [pool-1-thread-3] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №3 пробыла на стоянке 4 сек. и уехала
+2023-05-06 10:45:32 [pool-1-thread-10] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №10 прибыла на стоянку
+2023-05-06 10:45:32 [pool-1-thread-7] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №7 прибыла на стоянку
+2023-05-06 10:45:32 [pool-1-thread-1] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №1 прибыла на стоянку
+2023-05-06 10:45:32 [pool-1-thread-6] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №6 прибыла на стоянку
+2023-05-06 10:45:32 [pool-1-thread-2] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №2 прибыла на стоянку
+2023-05-06 10:45:32 [pool-1-thread-3] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №3 прибыла на стоянку
+2023-05-06 10:45:32 [pool-1-thread-4] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №4 прибыла на стоянку
+2023-05-06 10:45:32 [pool-1-thread-5] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №5 прибыла на стоянку
+2023-05-06 10:45:32 [pool-1-thread-9] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №9 прибыла на стоянку
+2023-05-06 10:45:32 [pool-1-thread-10] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №10 заняла место на стоянке
+2023-05-06 10:45:32 [pool-1-thread-5] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №5 заняла место на стоянке
+2023-05-06 10:45:32 [pool-1-thread-8] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №8 прибыла на стоянку
+2023-05-06 10:45:32 [pool-1-thread-3] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №3 заняла место на стоянке
+2023-05-06 10:45:32 [pool-1-thread-6] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №6 заняла место на стоянке
+2023-05-06 10:45:32 [pool-1-thread-2] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №2 заняла место на стоянке
+2023-05-06 10:45:33 [pool-1-thread-9] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №9 подождала 1 сек. и уехала на другую стоянку
+2023-05-06 10:45:33 [pool-1-thread-8] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №8 подождала 1 сек. и уехала на другую стоянку
+2023-05-06 10:45:34 [pool-1-thread-4] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №4 подождала 2 сек. и уехала на другую стоянку
+2023-05-06 10:45:34 [pool-1-thread-10] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №10 пробыла на стоянке 3 сек. и уехала
+2023-05-06 10:45:34 [pool-1-thread-5] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №5 пробыла на стоянке 4 сек. и уехала
+2023-05-06 10:45:34 [pool-1-thread-3] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №3 пробыла на стоянке 4 сек. и уехала
+2023-05-06 10:45:35 [pool-1-thread-1] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №1 подождала 3 сек. и уехала на другую стоянку
+2023-05-06 10:45:35 [pool-1-thread-6] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №6 пробыла на стоянке 1 сек. и уехала
+2023-05-06 10:45:36 [pool-1-thread-7] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №7 подождала 4 сек. и уехала на другую стоянку
+2023-05-06 10:45:36 [pool-1-thread-2] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №2 пробыла на стоянке 4 сек. и уехала
+2023-05-06 10:48:01 [pool-1-thread-6] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №6 прибыла на стоянку
+2023-05-06 10:48:01 [pool-1-thread-7] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №7 прибыла на стоянку
+2023-05-06 10:48:01 [pool-1-thread-10] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №10 прибыла на стоянку
+2023-05-06 10:48:01 [pool-1-thread-2] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №2 прибыла на стоянку
+2023-05-06 10:48:01 [pool-1-thread-8] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №8 прибыла на стоянку
+2023-05-06 10:48:01 [pool-1-thread-5] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №5 прибыла на стоянку
+2023-05-06 10:48:01 [pool-1-thread-10] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №10 заняла место на стоянке
+2023-05-06 10:48:01 [pool-1-thread-8] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №8 заняла место на стоянке
+2023-05-06 10:48:01 [pool-1-thread-9] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №9 прибыла на стоянку
+2023-05-06 10:48:01 [pool-1-thread-4] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №4 прибыла на стоянку
+2023-05-06 10:48:01 [pool-1-thread-5] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №5 заняла место на стоянке
+2023-05-06 10:48:01 [pool-1-thread-3] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №3 прибыла на стоянку
+2023-05-06 10:48:01 [pool-1-thread-1] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №1 прибыла на стоянку
+2023-05-06 10:48:01 [pool-1-thread-9] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №9 заняла место на стоянке
+2023-05-06 10:48:01 [pool-1-thread-2] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №2 заняла место на стоянке
+2023-05-06 10:48:02 [pool-1-thread-6] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №6 подождала 1 сек. и уехала на другую стоянку
+2023-05-06 10:48:03 [pool-1-thread-10] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №10 пробыла на стоянке 2 сек. и уехала
+2023-05-06 10:48:03 [pool-1-thread-8] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №8 пробыла на стоянке 1 сек. и уехала
+2023-05-06 10:48:03 [pool-1-thread-3] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №3 подождала 2 сек. и уехала на другую стоянку
+2023-05-06 10:48:03 [pool-1-thread-1] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №1 подождала 2 сек. и уехала на другую стоянку
+2023-05-06 10:48:04 [pool-1-thread-5] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №5 пробыла на стоянке 4 сек. и уехала
+2023-05-06 10:48:05 [pool-1-thread-4] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №4 подождала 4 сек. и уехала на другую стоянку
+2023-05-06 10:48:05 [pool-1-thread-7] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №7 подождала 4 сек. и уехала на другую стоянку
+2023-05-06 10:48:05 [pool-1-thread-9] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №9 пробыла на стоянке 4 сек. и уехала
+2023-05-06 10:48:05 [pool-1-thread-2] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №2 пробыла на стоянке 2 сек. и уехала
+2023-05-06 10:48:55 [pool-1-thread-9] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №9 прибыла на стоянку
+2023-05-06 10:48:55 [pool-1-thread-6] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №6 прибыла на стоянку
+2023-05-06 10:48:55 [pool-1-thread-2] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №2 прибыла на стоянку
+2023-05-06 10:48:55 [pool-1-thread-5] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №5 прибыла на стоянку
+2023-05-06 10:48:55 [pool-1-thread-10] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №10 прибыла на стоянку
+2023-05-06 10:48:55 [pool-1-thread-8] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №8 прибыла на стоянку
+2023-05-06 10:48:55 [pool-1-thread-3] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №3 прибыла на стоянку
+2023-05-06 10:48:55 [pool-1-thread-1] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №1 прибыла на стоянку
+2023-05-06 10:48:55 [pool-1-thread-4] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №4 прибыла на стоянку
+2023-05-06 10:48:55 [pool-1-thread-7] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №7 прибыла на стоянку
+2023-05-06 10:48:55 [pool-1-thread-6] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №6 заняла место на стоянке
+2023-05-06 10:48:55 [pool-1-thread-10] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №10 заняла место на стоянке
+2023-05-06 10:48:55 [pool-1-thread-4] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №4 заняла место на стоянке
+2023-05-06 10:48:55 [pool-1-thread-3] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №3 заняла место на стоянке
+2023-05-06 10:48:55 [pool-1-thread-5] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №5 заняла место на стоянке
+2023-05-06 10:48:56 [pool-1-thread-2] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №2 подождала 1 сек. и уехала на другую стоянку
+2023-05-06 10:48:57 [pool-1-thread-9] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №9 подождала 2 сек. и уехала на другую стоянку
+2023-05-06 10:48:57 [pool-1-thread-8] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №8 подождала 2 сек. и уехала на другую стоянку
+2023-05-06 10:48:57 [pool-1-thread-3] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №3 пробыла на стоянке 4 сек. и уехала
+2023-05-06 10:48:58 [pool-1-thread-10] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №10 пробыла на стоянке 2 сек. и уехала
+2023-05-06 10:48:58 [pool-1-thread-6] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №6 пробыла на стоянке 2 сек. и уехала
+2023-05-06 10:48:58 [pool-1-thread-7] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №7 подождала 3 сек. и уехала на другую стоянку
+2023-05-06 10:48:58 [pool-1-thread-5] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №5 пробыла на стоянке 3 сек. и уехала
+2023-05-06 10:48:59 [pool-1-thread-4] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №4 пробыла на стоянке 1 сек. и уехала
+2023-05-06 10:48:59 [pool-1-thread-1] INFO  vladsimonenko.eleventhlab.variantA.entity.Car - Машина №1 подождала 4 сек. и уехала на другую стоянку

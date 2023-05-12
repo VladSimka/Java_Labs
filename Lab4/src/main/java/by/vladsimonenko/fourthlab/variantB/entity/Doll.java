@@ -7,7 +7,7 @@ import java.util.Random;
  * Class to represent a Doll
  */
 public class Doll extends Toy implements Serializable {
-    public Doll() {
-        super("Кукла", "Большой", 15.99, 3 + new Random().nextInt(3));
+    public Doll(String name, String size, double price, int age) {
+        super(name, size, price, age);
     }
 }

@@ -6,8 +6,7 @@ import java.util.Random;
  * Class to represent a Cube
  */
 public class Cube extends Toy {
-    public Cube() {
-        super("Кубик", "Маленький", 10.99 + new Random().nextInt(4), 2 + new Random().nextInt(4));
+    public Cube(String name, String size, double price, int age) {
+        super(name, size, price, age);
     }
-
 }

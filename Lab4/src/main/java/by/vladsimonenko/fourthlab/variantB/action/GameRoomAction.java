@@ -7,6 +7,8 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Comparator;
+import java.util.List;
 
 /**
  * Class to interact with GameRoom
@@ -23,18 +25,9 @@ public class GameRoomAction {
      */
     public void sortByPrice(GameRoom room) {
         logger.info("Комната отсортирована по цене игрушек");
-        Toy[] toys = room.getToys();
-        for (int i = 0; i < toys.length; i++) {
-            for (int j = 0; j < toys.length - 1; j++) {
-                if (toys[i].getPrice() >= toys[j].getPrice()) {
-                    Toy tmp = toys[i];
-                    toys[i] = toys[j];
-                    toys[j] = tmp;
-
-                }
-            }
-        }
-        //logger.info(room);
+        List<Toy> toys = room.getToys();
+        toys.sort(Comparator.comparingDouble(Toy::getPrice));
+        room.setToys(toys);
     }
 
     /**
@@ -43,17 +36,9 @@ public class GameRoomAction {
      * @param room current GameRoom
      */
     public void sortByAge(GameRoom room) {
-        Toy[] toys = room.getToys();
-
-        for (int i = 0; i < toys.length; i++) {
-            for (int j = 0; j < toys.length - 1; j++) {
-                if (toys[i].getAge() < toys[j].getAge()) {
-                    Toy tmp = toys[i];
-                    toys[i] = toys[j];
-                    toys[j] = tmp;
-                }
-            }
-        }
+        List<Toy> toys = room.getToys();
+        toys.sort(Comparator.comparingInt(Toy::getAge));
+        room.setToys(toys);
         logger.info("Комната отсортирована по возрастной категории");
     }
 
@@ -66,29 +51,30 @@ public class GameRoomAction {
      */
     public void showInPriceRange(GameRoom room, double min, double max) {
         logger.info("Ищутся игрушки с ценой в заданном диапазоне");
-        for (int i = 0; i < room.getToys().length; i++) {
-            if (room.getToys()[i].getPrice() >= min && room.getToys()[i].getPrice() <= max) {
-                System.out.println(room.getToys()[i]);
+        for (int i = 0; i < room.getToys().size(); i++) {
+            if (room.getToys().get(i).getPrice() >= min && room.getToys().get(i).getPrice() <= max) {
+                System.out.println(room.getToys().get(i));
             }
         }
     }
 
     /**
      * Method to write information about GameRoom to file
+     *
      * @param room current room
      */
-    public void writeToFile(GameRoom room) {
-        try (FileWriter writer = new FileWriter("gameRoom.txt", false)) {
+    public synchronized void writeToFile(GameRoom room) {
+        try (FileWriter writer = new FileWriter("data/gameRoom.txt", false)) {
             writer.write(String.valueOf(room));
             writer.flush();
         } catch (IOException e) {
             logger.error("Ошибка при записи файла" + e.getMessage());
-        }
-        finally {
+        } finally {
             logger.debug("Была произведена попытка записи информации про игровую комнату в файл");
         }
-
     }
+
+
 }
 
 

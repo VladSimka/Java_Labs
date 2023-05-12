@@ -1,14 +1,16 @@
 package by.vladsimonenko.fourthlab.variantB._main;
 
-import by.vladsimonenko.fourthlab.variantB.action.Serialization;
 import by.vladsimonenko.fourthlab.variantB.controller.MenuController;
-import by.vladsimonenko.fourthlab.variantB.exceptions.CreatorException;
+import by.vladsimonenko.fourthlab.variantB.entity.Toy;
 import by.vladsimonenko.fourthlab.variantB.entity.GameRoom;
+import by.vladsimonenko.fourthlab.variantB.threads.DBSelectAllCallable;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.util.Random;
-import java.util.Scanner;
+import java.util.List;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 /**
  * Class with main method for variant B
@@ -16,26 +18,24 @@ import java.util.Scanner;
 public class GameRoomMain {
     static Logger logger = LogManager.getLogger();
 
-    public static void main(String[] args) throws CreatorException {
-        Serialization serialization = new Serialization();
-        Scanner scanner = new Scanner(System.in);
-        double money;
-        System.out.println("Введите доступную сумму денег");
-        money = scanner.nextDouble();
-        try {
-            if (money < 0) {
-                throw new IllegalArgumentException("Недопустимое количество денег, взято асболютное значение указанной суммы");
-            }
-        } catch (IllegalArgumentException e) {
+    public static void main(String[] args) {
+
+        ExecutorService executor = Executors.newSingleThreadExecutor();
+        Future<List<Toy>> future = executor.submit(new DBSelectAllCallable());
+
+        executor.shutdown();
+
+        try{
+            List<Toy> toys = future.get();
+
+
+            GameRoom room = new GameRoom(toys);
+            MenuController menu = new MenuController();
+            menu.mainMenu(room);
+        } catch (ExecutionException | InterruptedException e) {
             logger.error(e.getMessage());
-            money = Math.abs(money);
         }
 
 
-        GameRoom room = new GameRoom(money);
-        serialization.serialize(room, args[0]);
-
-        MenuController menu = new MenuController();
-        menu.mainMenu(room);
     }
 }
