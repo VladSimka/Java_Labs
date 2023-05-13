@@ -88,15 +88,18 @@ public class ToyDaoImpl implements ToyDao {
 
     @Override
     public boolean delete(Integer id) throws DaoException {
-        throw new DaoException();    }
+        throw new DaoException();
+    }
 
     @Override
     public boolean create(Toy toy) throws DaoException {
-        throw new DaoException();    }
+        throw new DaoException();
+    }
 
     @Override
     public Toy update(Toy toy) throws DaoException {
-        throw new DaoException();    }
+        throw new DaoException();
+    }
 
     @Override
     public List<Toy> findToysByPriceRange(double minPrice, double maxPrice) throws DaoException {

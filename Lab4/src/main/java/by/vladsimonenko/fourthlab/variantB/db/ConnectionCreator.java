@@ -28,8 +28,8 @@ public class ConnectionCreator {
     }
 
     private ConnectionCreator(){}
-
     public static Connection createConnection() throws SQLException {
         return DriverManager.getConnection(DATABASE_URL,properties);
     }
+
 }
