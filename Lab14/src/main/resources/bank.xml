@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<banks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="bank.xsd">
+    <bank>
+        <name>Bank A</name>
+        <country>Russia</country>
+        <type>срочный</type>
+        <depositor>Alice</depositor>
+        <accountId>2</accountId>
+        <amountOnDeposit>10000</amountOnDeposit>
+        <profitability>3.5</profitability>
+        <timeConstraints>12</timeConstraints>
+    </bank>
+    <bank>
+        <name>Bank B</name>
+        <country>USA</country>
+        <type>до востребования</type>
+        <depositor>Bob</depositor>
+        <accountId>1</accountId>
+        <amountOnDeposit>5000</amountOnDeposit>
+        <profitability>2</profitability>
+        <timeConstraints>0</timeConstraints>
+    </bank>
+    <bank>
+        <name>Bank C</name>
+        <country>Belarus</country>
+        <type>расчетный</type>
+        <depositor>Vlad</depositor>
+        <accountId>5</accountId>
+        <amountOnDeposit>1000</amountOnDeposit>
+        <profitability>3</profitability>
+        <timeConstraints>0</timeConstraints>
+    </bank>
+</banks>

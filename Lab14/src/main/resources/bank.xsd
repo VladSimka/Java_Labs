@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+<!--    <xs:simpleType name="depositType">-->
+<!--        <xs:restriction base="xs:string">-->
+<!--            <xs:enumeration value="до востребования"/>-->
+<!--            <xs:enumeration value="срочный"/>-->
+<!--            <xs:enumeration value="расчетный"/>-->
+<!--            <xs:enumeration value="накопительный"/>-->
+<!--            <xs:enumeration value="сберегательный"/>-->
+<!--            <xs:enumeration value="металлический"/>-->
+<!--        </xs:restriction>-->
+<!--    </xs:simpleType>-->
+
+    <xs:complexType name="bank">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="country" type="xs:string"/>
+            <xs:element name="type" type="xs:string"/>
+            <xs:element name="depositor" type="xs:string"/>
+            <xs:element name="accountId" type="xs:integer"/>
+            <xs:element name="amountOnDeposit" type="xs:double"/>
+            <xs:element name="profitability" type="xs:double"/>
+            <xs:element name="timeConstraints" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="banks">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="bank" type="bank" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

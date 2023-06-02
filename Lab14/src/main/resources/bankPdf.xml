@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<banks>
+    <bankname>All credits:</bankname>
+    <bank>
+        <name>Bank A</name>
+        <country>Russia</country>
+        <type>urgent</type>
+        <depositor>Alice</depositor>
+        <accountId>2</accountId>
+        <amountOnDeposit>10000</amountOnDeposit>
+        <profitability>3.5</profitability>
+        <timeConstraints>12</timeConstraints>
+    </bank>
+    <bank>
+        <name>Bank B</name>
+        <country>USA</country>
+        <type>poste restante</type>
+        <depositor>Bob</depositor>
+        <accountId>1</accountId>
+        <amountOnDeposit>5000</amountOnDeposit>
+        <profitability>2</profitability>
+        <timeConstraints>0</timeConstraints>
+    </bank>
+    <bank>
+        <name>Bank C</name>
+        <country>Belarus</country>
+        <type>estimated</type>
+        <depositor>Vlad</depositor>
+        <accountId>5</accountId>
+        <amountOnDeposit>1000</amountOnDeposit>
+        <profitability>3</profitability>
+        <timeConstraints>0</timeConstraints>
+    </bank>
+    <bank>
+        <name>Bank D</name>
+        <country>France</country>
+        <type>checking</type>
+        <depositor>David</depositor>
+        <accountId>4</accountId>
+        <amountOnDeposit>2000</amountOnDeposit>
+        <profitability>1.5</profitability>
+        <timeConstraints>6</timeConstraints>
+    </bank>
+    <bank>
+        <name>Bank E</name>
+        <country>China</country>
+        <type>time deposit</type>
+        <depositor>Eva</depositor>
+        <accountId>5</accountId>
+        <amountOnDeposit>12000</amountOnDeposit>
+        <profitability>3.75</profitability>
+        <timeConstraints>18</timeConstraints>
+    </bank>
+    <bank>
+        <name>Bank F</name>
+        <country>Germany</country>
+        <type>current</type>
+        <depositor>Frank</depositor>
+        <accountId>6</accountId>
+        <amountOnDeposit>3000</amountOnDeposit>
+        <profitability>2.25</profitability>
+        <timeConstraints>0</timeConstraints>
+    </bank>
+    <bank>
+        <name>Bank G</name>
+        <country>Japan</country>
+        <type>term</type>
+        <depositor>Gina</depositor>
+        <accountId>7</accountId>
+        <amountOnDeposit>9000</amountOnDeposit>
+        <profitability>3.0</profitability>
+        <timeConstraints>9</timeConstraints>
+    </bank>
+    <bank>
+        <name>Bank H</name>
+        <country>Australia</country>
+        <type>demand</type>
+        <depositor>Harry</depositor>
+        <accountId>8</accountId>
+        <amountOnDeposit>15000</amountOnDeposit>
+        <profitability>4.5</profitability>
+        <timeConstraints>0</timeConstraints>
+    </bank>
+    <bank>
+        <name>Bank I</name>
+        <country>UK</country>
+        <type>current</type>
+        <depositor>Ian</depositor>
+        <accountId>9</accountId>
+        <amountOnDeposit>4000</amountOnDeposit>
+        <profitability>2.0</profitability>
+        <timeConstraints>0</timeConstraints>
+    </bank>
+</banks>
